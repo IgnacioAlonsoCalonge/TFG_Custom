@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 import {FiShoppingCart} from 'react-icons/fi'
 import {FaUser} from 'react-icons/fa'
-import { useState, useEffect } from 'react'
+import { useState, useEffect} from 'react'
 
 import { useCart } from '../Compra/CartContext'
-import logo from '../../Assets/Estampados/UWUS_2.png'
+import logo from '../../Assets/Estampados/Icon_g.png'
 
 const NavBar = () => {
 
@@ -36,7 +36,11 @@ const NavBar = () => {
   return (
     <div className='navigation_bar'>
 
-        <img className={ active ? 'myLogo active' : 'myLogo'} src={logo}></img>
+            <Link to='/'>
+                <div className='oc'>
+                    <img className={ active ? 'myLogo active' : 'myLogo'} src={logo}></img>
+                </div>
+            </Link>  
 
         <div className='navigation_pestanas'>
             <ul>

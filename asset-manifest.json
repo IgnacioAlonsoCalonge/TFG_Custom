@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TFG_Custom/static/css/main.801ba2ee.css",
-    "main.js": "/TFG_Custom/static/js/main.6821d327.js",
+    "main.css": "/TFG_Custom/static/css/main.4c9ac04f.css",
+    "main.js": "/TFG_Custom/static/js/main.c75b5fd9.js",
     "static/js/787.ce74a52f.chunk.js": "/TFG_Custom/static/js/787.ce74a52f.chunk.js",
     "static/media/Afro_5.png": "/TFG_Custom/static/media/Afro_5.d5a02d6c536823362e40.png",
     "static/media/Gato_recortado.png": "/TFG_Custom/static/media/Gato_recortado.01b2e5e3f5fc9cdca342.png",
@@ -106,6 +106,7 @@
     "static/media/Camiseta_Mujer_Gris.png": "/TFG_Custom/static/media/Camiseta_Mujer_Gris.0fbfc81154308ce12441.png",
     "static/media/Astronauta_3.png": "/TFG_Custom/static/media/Astronauta_3.923a659b63c2b1bf3cbf.png",
     "static/media/Sudadera_Verde.png": "/TFG_Custom/static/media/Sudadera_Verde.4d637bd8d8f1edb875fc.png",
+    "static/media/Icon_g.png": "/TFG_Custom/static/media/Icon_g.84faa0c7f84a24390048.png",
     "static/media/Sudadera_Mujer_Verde.png": "/TFG_Custom/static/media/Sudadera_Mujer_Verde.5a9da53be3f330ebd309.png",
     "static/media/sds.png": "/TFG_Custom/static/media/sds.760bb126af328e1a56a3.png",
     "static/media/Astronauta_4.png": "/TFG_Custom/static/media/Astronauta_4.dd241fd6ff51e5e24c7b.png",
@@ -114,17 +115,16 @@
     "static/media/Camiseta_Mujer_Verde.png": "/TFG_Custom/static/media/Camiseta_Mujer_Verde.88a767da562781458f57.png",
     "static/media/Camiseta_Mujer_Roja.png": "/TFG_Custom/static/media/Camiseta_Mujer_Roja.777ba6e58cef8620199c.png",
     "static/media/Camiseta_Roja.png": "/TFG_Custom/static/media/Camiseta_Roja.10bdc170b3a09f655108.png",
-    "static/media/UWUS_2.png": "/TFG_Custom/static/media/UWUS_2.6383f76e22b6ec4f8955.png",
     "static/media/Camiseta_Negra.png": "/TFG_Custom/static/media/Camiseta_Negra.5fd2a2502adb739ff469.png",
     "static/media/Camiseta_Verde_Oscuro.png": "/TFG_Custom/static/media/Camiseta_Verde_Oscuro.d679961745c9f833c4f6.png",
     "static/media/Black_2.png": "/TFG_Custom/static/media/Black_2.020903c1facca8fddb21.png",
     "index.html": "/TFG_Custom/index.html",
-    "main.801ba2ee.css.map": "/TFG_Custom/static/css/main.801ba2ee.css.map",
-    "main.6821d327.js.map": "/TFG_Custom/static/js/main.6821d327.js.map",
+    "main.4c9ac04f.css.map": "/TFG_Custom/static/css/main.4c9ac04f.css.map",
+    "main.c75b5fd9.js.map": "/TFG_Custom/static/js/main.c75b5fd9.js.map",
     "787.ce74a52f.chunk.js.map": "/TFG_Custom/static/js/787.ce74a52f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.801ba2ee.css",
-    "static/js/main.6821d327.js"
+    "static/css/main.4c9ac04f.css",
+    "static/js/main.c75b5fd9.js"
   ]
 }

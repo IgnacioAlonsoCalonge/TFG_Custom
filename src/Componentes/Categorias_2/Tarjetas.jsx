@@ -84,8 +84,6 @@ const Tarjetas = (props) => {
         bicolor: sm_gris,
       }
 
-
-
     function color(value) {
       setCamiseta(value)
       }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/io/TFG_Custom/static/css/main.63c59696.css",
-    "main.js": "/io/TFG_Custom/static/js/main.386c3166.js",
+    "main.js": "/io/TFG_Custom/static/js/main.63c6d139.js",
     "static/js/787.ce74a52f.chunk.js": "/io/TFG_Custom/static/js/787.ce74a52f.chunk.js",
     "static/media/Afro_5.png": "/io/TFG_Custom/static/media/Afro_5.d5a02d6c536823362e40.png",
     "static/media/Gato_recortado.png": "/io/TFG_Custom/static/media/Gato_recortado.01b2e5e3f5fc9cdca342.png",
@@ -117,11 +117,11 @@
     "static/media/Black_2.png": "/io/TFG_Custom/static/media/Black_2.020903c1facca8fddb21.png",
     "index.html": "/io/TFG_Custom/index.html",
     "main.63c59696.css.map": "/io/TFG_Custom/static/css/main.63c59696.css.map",
-    "main.386c3166.js.map": "/io/TFG_Custom/static/js/main.386c3166.js.map",
+    "main.63c6d139.js.map": "/io/TFG_Custom/static/js/main.63c6d139.js.map",
     "787.ce74a52f.chunk.js.map": "/io/TFG_Custom/static/js/787.ce74a52f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63c59696.css",
-    "static/js/main.386c3166.js"
+    "static/js/main.63c6d139.js"
   ]
 }

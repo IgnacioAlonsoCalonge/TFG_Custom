@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TFG_Custom/static/css/main.3910fd18.css",
-    "main.js": "/TFG_Custom/static/js/main.79a20d57.js",
+    "main.css": "/TFG_Custom/static/css/main.801ba2ee.css",
+    "main.js": "/TFG_Custom/static/js/main.6821d327.js",
     "static/js/787.ce74a52f.chunk.js": "/TFG_Custom/static/js/787.ce74a52f.chunk.js",
     "static/media/Afro_5.png": "/TFG_Custom/static/media/Afro_5.d5a02d6c536823362e40.png",
     "static/media/Gato_recortado.png": "/TFG_Custom/static/media/Gato_recortado.01b2e5e3f5fc9cdca342.png",
@@ -86,10 +86,12 @@
     "static/media/Sudadera_Mujer_Gris.png": "/TFG_Custom/static/media/Sudadera_Mujer_Gris.3ffc766276345f4e6951.png",
     "static/media/Retrato_7.png": "/TFG_Custom/static/media/Retrato_7.36381bcc995d192abf65.png",
     "static/media/Pandito_2.png": "/TFG_Custom/static/media/Pandito_2.8a5474bac088b6f9cab9.png",
+    "static/media/Definitivox.png": "/TFG_Custom/static/media/Definitivox.34242036fe68c00c1bbb.png",
     "static/media/Camiseta_bicolor.png": "/TFG_Custom/static/media/Camiseta_bicolor.8ec3652f888be1ed9d3f.png",
     "static/media/Camiseta_Mujer_Blanca.png": "/TFG_Custom/static/media/Camiseta_Mujer_Blanca.15e038141f8c2ac36bcd.png",
     "static/media/Leon_Camiseta.png": "/TFG_Custom/static/media/Leon_Camiseta.26e71f18d213b4249568.png",
     "static/media/Camiseta_Mujer_Naranja.png": "/TFG_Custom/static/media/Camiseta_Mujer_Naranja.e724290b0af3f7f75d44.png",
+    "static/media/s.png": "/TFG_Custom/static/media/s.df2f95f18282f74d813b.png",
     "static/media/Casa_Camiseta.png": "/TFG_Custom/static/media/Casa_Camiseta.2070e4370ce9a984daf8.png",
     "static/media/Sudadera_Negra.png": "/TFG_Custom/static/media/Sudadera_Negra.7084932d8692246f6c07.png",
     "static/media/Sudadera_Azul.png": "/TFG_Custom/static/media/Sudadera_Azul.0dc563709de7ae08bc75.png",
@@ -112,16 +114,17 @@
     "static/media/Camiseta_Mujer_Verde.png": "/TFG_Custom/static/media/Camiseta_Mujer_Verde.88a767da562781458f57.png",
     "static/media/Camiseta_Mujer_Roja.png": "/TFG_Custom/static/media/Camiseta_Mujer_Roja.777ba6e58cef8620199c.png",
     "static/media/Camiseta_Roja.png": "/TFG_Custom/static/media/Camiseta_Roja.10bdc170b3a09f655108.png",
+    "static/media/UWUS_2.png": "/TFG_Custom/static/media/UWUS_2.6383f76e22b6ec4f8955.png",
     "static/media/Camiseta_Negra.png": "/TFG_Custom/static/media/Camiseta_Negra.5fd2a2502adb739ff469.png",
     "static/media/Camiseta_Verde_Oscuro.png": "/TFG_Custom/static/media/Camiseta_Verde_Oscuro.d679961745c9f833c4f6.png",
     "static/media/Black_2.png": "/TFG_Custom/static/media/Black_2.020903c1facca8fddb21.png",
     "index.html": "/TFG_Custom/index.html",
-    "main.3910fd18.css.map": "/TFG_Custom/static/css/main.3910fd18.css.map",
-    "main.79a20d57.js.map": "/TFG_Custom/static/js/main.79a20d57.js.map",
+    "main.801ba2ee.css.map": "/TFG_Custom/static/css/main.801ba2ee.css.map",
+    "main.6821d327.js.map": "/TFG_Custom/static/js/main.6821d327.js.map",
     "787.ce74a52f.chunk.js.map": "/TFG_Custom/static/js/787.ce74a52f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3910fd18.css",
-    "static/js/main.79a20d57.js"
+    "static/css/main.801ba2ee.css",
+    "static/js/main.6821d327.js"
   ]
 }

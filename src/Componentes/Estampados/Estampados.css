@@ -196,7 +196,7 @@
 .title_estampados h3{
     font-size: 2rem;
     font-family: 'Bebas Neue';
-
+    color: #575757;
 }
 
 .title_estampados h2{
@@ -392,7 +392,7 @@
     }
 
     .title_estampados{
-        margin-top: 0rem;
+        margin-top: 1rem;
     }
 
     .title_estampados h2{
@@ -409,7 +409,7 @@
     .carrito_talla{
         gap: 2rem;
         margin-top: 0.5rem;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .customizada{
@@ -426,7 +426,7 @@
     }
 
     .description_1{
-        margin-top: 0rem;
+        margin-top: 0.3rem;
     }
 
     .description_1_1{

@@ -189,7 +189,7 @@
 
     .colores_estamp1{
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: flex-start;
       width: 100%;
 
@@ -201,6 +201,12 @@
       min-height: 0;
   }
 
+  .section_cat_titulo{
+    padding: 0rem 1rem;
+  }
 
+  .section_cat_titulo h1{
+    font-size: 1.4rem;
+  }
 
 }

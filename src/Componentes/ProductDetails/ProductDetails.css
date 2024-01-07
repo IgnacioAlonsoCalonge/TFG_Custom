@@ -136,7 +136,6 @@
 
     .product_details_descripcion p{
         font-size: 1.15rem;
-        text-align:justify;
     }
 
     .product_details_dropdown h2{
@@ -264,6 +263,7 @@
 
     .details_button{
         margin-right: 0;
+        margin-left: 1.3rem;
     }
   
   }

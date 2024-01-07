@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TFG_Custom/static/css/main.63c59696.css",
+    "main.css": "/TFG_Custom/static/css/main.5ad1aeb1.css",
     "main.js": "/TFG_Custom/static/js/main.79a20d57.js",
     "static/js/787.ce74a52f.chunk.js": "/TFG_Custom/static/js/787.ce74a52f.chunk.js",
     "static/media/Afro_5.png": "/TFG_Custom/static/media/Afro_5.d5a02d6c536823362e40.png",
@@ -116,12 +116,12 @@
     "static/media/Camiseta_Verde_Oscuro.png": "/TFG_Custom/static/media/Camiseta_Verde_Oscuro.d679961745c9f833c4f6.png",
     "static/media/Black_2.png": "/TFG_Custom/static/media/Black_2.020903c1facca8fddb21.png",
     "index.html": "/TFG_Custom/index.html",
-    "main.63c59696.css.map": "/TFG_Custom/static/css/main.63c59696.css.map",
+    "main.5ad1aeb1.css.map": "/TFG_Custom/static/css/main.5ad1aeb1.css.map",
     "main.79a20d57.js.map": "/TFG_Custom/static/js/main.79a20d57.js.map",
     "787.ce74a52f.chunk.js.map": "/TFG_Custom/static/js/787.ce74a52f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c59696.css",
+    "static/css/main.5ad1aeb1.css",
     "static/js/main.79a20d57.js"
   ]
 }

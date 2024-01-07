@@ -9,7 +9,7 @@ import roja from '../../Assets/Camisetas_Color/Camiseta_Roja.png'
 import verde from '../../Assets/Camisetas_Color/Camiseta_Verde_Oscuro.png'
 import gris from '../../Assets/Camisetas_Color/Camiseta_Gris.png'
 import naranja from '../../Assets/Camisetas_Color/Camiseta_Gris_Clarito_2.png'
-import gris_gris from '../../Assets/Camisetas_Color/Camiseta_bicolor.png'
+import gris_gris from '../../Assets/Camisetas_Color/s.png'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { FreeMode } from 'swiper';
 import 'swiper/css';
@@ -25,6 +25,7 @@ import m_roja from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_
 import m_verde from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Verde.png'
 import m_azul from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Gris.png'
 import m_gris_clarito from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Naranja.png'
+import m_gris from '../../Assets/Camisetas_Color/Camisetas_Chica/Definitivox.png'
 
 import s_blanco from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Blanca.png'
 import s_negro from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Negra.png'
@@ -84,8 +85,7 @@ const Estampados = () => {
     verde: m_verde,
     azul: m_azul,
     gris_1: m_gris_clarito,
-
-
+    gris_real: m_gris
   };
 
   const imagenes_3  ={
@@ -159,7 +159,7 @@ const Estampados = () => {
 
     localStorage.setItem('myProduct', JSON.stringify(a));
 
-    window.location.href = '/compra';
+    window.location.href = 'https://ignacioalonsocalonge.github.io/TFG_Custom/compra';
 
   }
 

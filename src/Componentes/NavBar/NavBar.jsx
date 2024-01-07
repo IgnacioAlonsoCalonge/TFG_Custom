@@ -7,6 +7,7 @@ import {FaUser} from 'react-icons/fa'
 import { useState, useEffect } from 'react'
 
 import { useCart } from '../Compra/CartContext'
+import logo from '../../Assets/Estampados/UWUS_2.png'
 
 const NavBar = () => {
 
@@ -35,7 +36,7 @@ const NavBar = () => {
   return (
     <div className='navigation_bar'>
 
-        <h1 className={ active ? 'logo active' : 'logo'}>Logo</h1>
+        <img className={ active ? 'myLogo active' : 'myLogo'} src={logo}></img>
 
         <div className='navigation_pestanas'>
             <ul>

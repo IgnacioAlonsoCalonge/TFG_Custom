@@ -163,7 +163,7 @@ const Tarjetas = (props) => {
                     <div onClick={()=> color('verde')} className={camiseta === 'verde' ? 'verde activo_custom' : 'verde'}></div>
                     <div onClick={()=> color('azul')} className={camiseta === 'azul' ? 'gris activo_custom' : 'gris'}></div>
                     <div onClick={()=> color('naranja')} className={camiseta === 'naranja' ? 'gris_clarito activo_custom' : 'gris_clarito'}></div>
-                    <div onClick={()=> color('bicolor')} className={camiseta === 'bicolor' ? 'gris_clarito activo_custom' : 'gris_clarito'}></div>
+                    <div onClick={()=> color('bicolor')} className={camiseta === 'bicolor' ? 'gris_real activo_custom' : 'gris_real'}></div>
                 </div>
               </div>
           </div>

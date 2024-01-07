@@ -13,7 +13,7 @@
     height: 30%;
     top: 50%;
     left: 50%;
-    opacity: 0.75;
+    opacity: 0.85;
     transform: translateX(-50%) translateY(-60%);
     object-fit: contain;
 
@@ -28,7 +28,7 @@
     top: 53%;
     left: 50.25%;
     transform: translateX(-50%) translateY(-60%);
-    opacity: 0.7;
+    opacity: 0.8;
 
 }
 

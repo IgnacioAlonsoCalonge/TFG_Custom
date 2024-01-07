@@ -44,7 +44,7 @@ function App() {
       <NavBar/>
       <div className='contenedor'>
         <Routes>
-          <Route path='/' element={<Home imagen={fotoHome}/>}/>
+          <Route path='/TFG_Custom/' element={<Home imagen={fotoHome}/>}/>
           <Route path='/productos' element={<Productos/>}/>  
           <Route path='/productos/:id' element={<ProductDetails/>} />
           <Route path='/estampados/:id' element={<Estampados/>} />

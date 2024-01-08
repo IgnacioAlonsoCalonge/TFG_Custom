@@ -4,7 +4,9 @@ import negro from '../../Assets/Camisetas_Color/Camiseta_Negra.png'
 import roja from '../../Assets/Camisetas_Color/Camiseta_Roja.png'
 import verde from '../../Assets/Camisetas_Color/Camiseta_Verde_Oscuro.png'
 import gris from '../../Assets/Camisetas_Color/Camiseta_Gris.png'
-import gris_clarito from '../../Assets/Camisetas_Color/Camiseta_Gris_Clarito.png'
+import gris_clarito from '../../Assets/Camisetas_Color/Camiseta_Gris_Clarito_2.png'
+import gris_real from '../../Assets/Camisetas_Color/s.png'
+
 import 'swiper/css';
 import "swiper/css/free-mode";
 import Boton_2 from '../Botones/Boton_2'
@@ -18,21 +20,27 @@ import m_blanco from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Muje
 import m_negro from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Negra.png'
 import m_roja from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Roja.png'
 import m_verde from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Verde.png'
-import m_gris from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Naranja.png'
-import m_gris_clarito from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Gris.png'
+import m_gris from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Gris.png'
+import m_gris_clarito from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Naranja.png'
+import m_gris_real from '../../Assets/Camisetas_Color/Camisetas_Chica/Definitivox.png'
 
 import s_blanco from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Blanca.png'
 import s_negro from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Negra.png'
 import s_roja from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Roja.png'
-import s_verde from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Azul.png'
-import s_gris from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Naranja.png'
+import s_verde from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Verde.png'
+import s_azul from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Azul.png'
+import s_naranja from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Naranja.png'
+import s_gris from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Gris.png'
 
 
 import sm_blanco from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Blanca.png'
 import sm_negro from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Negra.png'
 import sm_roja from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Roja.png'
-import sm_azul from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Azul.png'
-import sm_azul_c from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Azul_Clarito.png'
+import sm_verde from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Verde.png'
+import sm_azul_c from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Azul.png'
+import sm_naranja from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Naranja.png'
+import sm_gris from '../../Assets/Camisetas_Color/Sudaderas_Chica/Sudadera_Mujer_Gris.png'
+
 
 import {TbArrowsExchange2} from 'react-icons/tb'
 import {GiHoodie} from 'react-icons/gi'
@@ -76,6 +84,7 @@ const Custom = () => {
     verde: verde,
     gris: gris,
     gris_clarito: gris_clarito,
+    gris_real: gris_real,
   };
 
   const imagenes_2 = {
@@ -85,6 +94,7 @@ const Custom = () => {
     verde: m_verde,
     gris: m_gris,
     gris_clarito: m_gris_clarito,
+    gris_real: m_gris_real,
   };
 
   const imagenes_3  ={
@@ -92,15 +102,19 @@ const Custom = () => {
     negro: s_negro,
     rojo: s_roja,
     verde: s_verde,
-    gris: s_gris,
+    gris: s_azul,
+    gris_clarito: s_naranja,
+    gris_real: s_gris,
   }
 
   const imagenes_4 ={
     blanco: sm_blanco,
     negro: sm_negro,
     rojo: sm_roja,
-    verde: sm_azul,
+    verde: sm_verde,
     gris: sm_azul_c,
+    gris_clarito: sm_naranja,
+    gris_real: sm_gris,
   }
 
 
@@ -280,6 +294,7 @@ const Custom = () => {
             <div onClick={()=> color('verde')} className={camiseta === 'verde' ? 'verde activo_custom' : 'verde'}></div>
             <div onClick={()=> color('gris')} className={camiseta === 'gris' ? 'gris activo_custom' : 'gris'}></div>
             <div onClick={()=> color('gris_clarito')} className={camiseta === 'gris_clarito' ? 'gris_clarito activo_custom' : 'gris_clarito'}></div>
+            <div onClick={()=> color('gris_real')} className={camiseta === 'gris_real' ? 'gris_real activo_custom' : 'gris_real'}></div>
           </div>
         </div>
         <div className='product_details_descripcion mod'>
@@ -300,11 +315,10 @@ const Custom = () => {
               onChange={handleImageUpload}
               style={{display:'none' }}
               className='jgj'
-              />          
-              <div variants={inicial} className="generar">Archivo</div> 
+              />
               <div variants={inicial} className='customizada'>
               <h3>Color</h3>
-               <input 
+              <input 
                 className='colors_input_2'
                 type="range"
                 min="0"
@@ -313,6 +327,8 @@ const Custom = () => {
                 onChange={colorEstampado}
               />
               </div>
+              <div variants={inicial} className="generar">Archivo</div> 
+
               </label>
               <div variants={inicial} className='carrito_talla'>
                 <Dropdown onSizeChange={handleSizeChange} selectedSize={selectedSize}/>

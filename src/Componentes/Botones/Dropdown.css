@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+
 
 .dropdown{
     position: relative;
@@ -21,7 +20,7 @@
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
     outline: none;
     border: solid 2px rgb(153, 153, 153);
-    font-family: "Montserrat";
+    font-family: "Montserrat1";
     font-weight: bold;
   }
   
@@ -65,7 +64,7 @@
     overflow: hidden;
     visibility: hidden;
     opacity: 0;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat1';
     font-weight: bold;
     transition: 0.3s;
  

@@ -171,7 +171,7 @@
 
 .description_1{
     font-size: 1.2rem;
-    margin-top: 0rem;
+    margin-top: 0.8rem;
 }
 
 
@@ -197,6 +197,8 @@
     font-size: 2rem;
     font-family: 'Bebas Neue';
     color: #575757;
+    margin-top: 0.8rem; 
+    margin-bottom: 0.5rem; 
 }
 
 .title_estampados h2{
@@ -204,8 +206,8 @@
     font-family: 'Bebas Neue';
     letter-spacing: 0.4rem;
     color: rgb(92, 92, 92);
-    font-style: italic;
-    
+    margin-top: 0.8rem; 
+    margin-bottom: 0.5rem; 
 }
 
 .customizada h3{
@@ -226,7 +228,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 1rem;
     gap: 2rem;
 }
 

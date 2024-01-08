@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+
 
 .contenedor_product_details{
     width: 100%;
@@ -85,10 +85,6 @@
 .product_details_tipo{
     font-size: 1.4rem;
     color: #555555;
-}
-
-.details_button{
-    margin-right: 3rem;
 }
 
 .product_details_dropdown{
@@ -261,10 +257,6 @@
         font-size: 1.3rem;
     }
 
-    .details_button{
-        margin-right: 0;
-        margin-left: 1.3rem;
-    }
   
   }
 

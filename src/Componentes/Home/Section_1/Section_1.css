@@ -8,6 +8,21 @@
     padding-top: 2rem;
   }
 
+  @font-face {
+    font-family: 'Montserrat1';
+    src: url('../../../Assets/fonts/Montserrat-Regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Bebas Neue';
+    src: url('../../../Assets/fonts/BebasNeue-Regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Permanent';
+    src: url('../../../Assets/fonts/PermanentMarker-Regular.woff2') format('woff2');
+  }
+
   .home_foto{
     display: flex;
     justify-content: center;
@@ -40,8 +55,9 @@
 
   .home_introduccion h1{
     font-size: 5rem;
-    font-family: "Bona Nova";
-    color: var(--color_titulo);
+    width: max-content;
+    font-family: "Permanent";
+    color: rgb(1, 1, 2);
     position: relative;
     margin-bottom: 4rem;
     margin-top: 0;
@@ -49,9 +65,9 @@
 
   .home_introduccion h1::before{
     content: "";
-    width: 300px;
+    width: 100%;
     height: 3px;
-    background: black;
+    background: rgb(0, 0, 0);
     position: absolute;
     bottom: -0.3rem;
     left: 0;
@@ -66,9 +82,9 @@
 
   .home_introduccion h1::after{
     content: "";
-    width: 300px;
+    width: 100%;
     height: 3px;
-    background: black;
+    background: rgb(0, 0, 0);
     position: absolute;
     bottom: -0.8rem;
     left: 1rem;
@@ -105,7 +121,8 @@
     margin-bottom: 5rem;
     display: inline-block;
     font-size: 4.5rem;
-    font-family: "Bona Nova";
+    font-family: "Bebas Neue";
+    
   }
 
 
@@ -204,7 +221,6 @@
     .home_introduccion h1{
       margin-bottom: 1.5rem;
   }
-
     
     .home_introduccion p{
         width: 90%;
@@ -217,14 +233,6 @@
 
     .animacion div:first-child{
         animation: text-animation_responsive 12s infinite;
-      }
-
-      .home_introduccion h1::before{
-        width: 210px;
-      }
-
-      .home_introduccion h1::after{
-        width: 210px;
       }
 
       .home_foto{
@@ -256,9 +264,6 @@
         justify-content: center;
         align-items: center;
     }
-
-
-
     
   }
 

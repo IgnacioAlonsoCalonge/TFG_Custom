@@ -44,15 +44,15 @@
 
 
 .facebook{
-    color: black;
+    color: #3b5998;
 }
 
 .instagram{
-    color: black;
+    color: #D43089;
 }
 
 .twitter{
-    color: black;
+    color: #00acee;
 }
 
 @media screen and (max-width: 1500px){

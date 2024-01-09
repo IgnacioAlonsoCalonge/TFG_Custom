@@ -1,4 +1,4 @@
-.section_3_boton{
+.section_3_boton_1{
     margin:  3rem 0;
     display: flex;
   }
@@ -10,7 +10,7 @@
     text-decoration: none;
     padding: 15px 30px;
     font-weight: 1000;
-    color: white;
+    color: rgb(226, 16, 16);
     font-family: "Montserrat1";
     letter-spacing: 0.2rem;
     border: 2px solid var(--color_azul);

@@ -17,7 +17,7 @@ const Section_3 = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing
                      elit. Totam iu
                 </p>
-                <Boton1 direccion="/custom" texto_boton="Customizate"/>
+                <Boton1 direccion="/custom" texto_boton="Customizate" estilo='section_3_boton'/>
             </div>
             <div className='section_3_img1'>
                 <img src={chica} alt='chica'/>

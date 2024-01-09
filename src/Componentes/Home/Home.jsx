@@ -8,9 +8,9 @@ const Home = (props) => {
   return (
     <div className='home'>
         <Section_1 imagen={props.imagen}/>
-        <Section_2/>
-        <Section_3/>
         <Section_4/>
+        <Section_3/>
+        <Section_2/>
     </div>
   )
 }

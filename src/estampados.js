@@ -147,6 +147,7 @@ export const estampados = [
         titulo:"Astronauta",
         foto: foto8,
         price: 14,
+        inicial: 'negro',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elibia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co",
         relacionados: [foto9]
     },
@@ -156,6 +157,7 @@ export const estampados = [
         titulo:"Kratos",
         foto: foto10,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -164,6 +166,7 @@ export const estampados = [
         titulo:"All in All out",
         foto: foto11,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -185,6 +188,7 @@ export const estampados = [
         titulo:"Afro-American-Rock",
         foto: foto16,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -194,6 +198,7 @@ export const estampados = [
         titulo:"Samurai X",
         foto: foto18,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -214,6 +219,7 @@ export const estampados = [
         relacionados:[foto21],
         foto: foto20,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -236,6 +242,7 @@ export const estampados = [
         titulo:"Philosophy",
         foto: foto30,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -244,6 +251,7 @@ export const estampados = [
         titulo:"Native American portrait",
         foto: foto31,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -252,6 +260,7 @@ export const estampados = [
         titulo:"To the moon",
         foto: foto32,
         price: 12,
+        inicial: 'blanco',
         relacionados: [foto33],
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
@@ -396,6 +405,7 @@ export const estampados = [
         titulo:"Savannah Elephant",
         foto: foto44,
         price: 12,
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 

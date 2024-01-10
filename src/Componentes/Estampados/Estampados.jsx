@@ -74,7 +74,7 @@ const Estampados = () => {
     rojo: roja,
     verde: verde,
     azul: gris,
-    gris_1: naranja,
+   naranja: naranja,
     gris_real:gris_gris,
   };
 
@@ -84,7 +84,7 @@ const Estampados = () => {
     rojo: m_roja,
     verde: m_verde,
     azul: m_azul,
-    gris_1: m_gris_clarito,
+    naranja: m_gris_clarito,
     gris_real: m_gris
   };
 
@@ -94,7 +94,7 @@ const Estampados = () => {
     rojo: s_roja,
     verde: s_verde,
     azul: s_azul,
-    gris_1: s_naranja,
+    naranja: s_naranja,
     gris_real: s_gris,
   }
 
@@ -104,7 +104,7 @@ const Estampados = () => {
     rojo: sm_roja,
     verde: sm_verde,
     azul: sm_azul,
-    gris_1: sm_naranja,
+    naranja: sm_naranja,
     gris_real: sm_gris,
   }
 
@@ -291,7 +291,7 @@ const Estampados = () => {
             <div onClick={()=> color('rojo')} className={camiseta === 'rojo' ? 'rojo activo_custom' : 'rojo'}></div>
             <div onClick={()=> color('verde')} className={camiseta === 'verde' ? 'verde activo_custom' : 'verde'}></div>
             <div onClick={()=> color('azul')} className={camiseta === 'azul' ? 'azul activo_custom' : 'azul'}></div>
-            <div onClick={()=> color('gris_1')} className={camiseta === 'gris_1' ? 'gris_1 activo_custom' : 'gris_1'}></div>
+            <div onClick={()=> color('naranja')} className={camiseta === 'gris_1' ? 'gris_1 activo_custom' : 'gris_1'}></div>
             <div onClick={()=> color('gris_real')} className={camiseta === 'gris_real' ? 'gris_real activo_custom' : 'gris_real'}></div>
           </div>
         </div>

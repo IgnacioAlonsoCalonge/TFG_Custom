@@ -57,7 +57,7 @@
     font-size: 5rem;
     width: max-content;
     font-family: "Permanent";
-    color: rgb(255, 108, 194);
+    color: rgb(240, 62, 115);
     position: relative;
     margin-top: 0;
     margin-bottom: 2rem;
@@ -68,36 +68,74 @@
     content: "";
     width: 100%;
     height: 3px;
-    background: rgb(226, 192, 253);
+    background: rgb(240, 62, 115);
     position: absolute;
     bottom: 0.5rem;
     left: 0;
     transition: left 0.5s, width 0.5s;
     transition-delay: 0s, 0.5s;
     rotate: -1deg;
+    animation: lineas_1 14s ease infinite;
   }
 
-  .home_introduccion h1:hover::before{
-      width: 0px;
-      left: -0.5rem;
+  @keyframes lineas_1 {
+    0%{
+      left: 0;
+      width: 100%;
+    }
+
+    10%{
+      left: -1rem;
+      width: 0;
+    }
+
+    90%{
+      left: -1rem;
+      width: 0;
+    }
+
+    100%{
+      left: 0;
+      width: 100%;
+    }
+    
   }
 
   .home_introduccion h1::after{
     content: "";
     width: 100%;
     height: 3px;
-    background: rgb(222, 153, 240);
+    background: rgb(245, 26, 92);
     position: absolute;
     bottom: 0rem;
-    left: 1rem;
+    left: 0rem;
     transition: left 0.5s, width 0.5s;
     transition-delay: 0s,0.5s;
     rotate: -1deg;
+    animation: lineas 14s ease infinite;
   }
 
-  .home_introduccion h1:hover::after{
-    left: 2rem;
-    width: 0;
+  @keyframes lineas {
+    0%{
+      left: 1rem;
+      width: 80%;
+    }
+
+    10%{
+      left: 2rem;
+      width: 0;
+    }
+
+    90%{
+      left: 2rem;
+      width: 0;
+    }
+
+    100%{
+      left: 1rem;
+      width: 80%;
+    }
+    
   }
 
   .home_introduccion h2{

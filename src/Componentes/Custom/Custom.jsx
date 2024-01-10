@@ -181,7 +181,7 @@ const Custom = () => {
     a.push(nuevoProducto);
     console.log(a)
     localStorage.setItem('myProduct', JSON.stringify(a));
-    window.location.href = '/compra';
+    window.location.href = 'https://ignacioalonsocalonge.github.io/TFG_Custom/compra';
   }
 
   async function generateImageRequest(prompt) {

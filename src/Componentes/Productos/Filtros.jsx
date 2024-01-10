@@ -66,13 +66,13 @@ const Filtros = () => {
             <SwiperSlide>
             <span
             className={active === 'hombre' ? 'active': ''}
-             onClick={() => activado('hombre')}>Hombre</span>
+             onClick={() => activado('hombre')}>Limitado</span>
             </SwiperSlide>
 
             <SwiperSlide>
             <span
             className={active === 'mujer' ? 'active': ''}
-             onClick={() => activado('mujer')}>Mujer</span>
+             onClick={() => activado('mujer')}>Outlet</span>
             </SwiperSlide>
             
             <SwiperSlide>
@@ -84,7 +84,7 @@ const Filtros = () => {
             <SwiperSlide>
             <span 
             className={active === 'limitados' ? 'active': ''}
-            onClick={() => activado('limitados')}>Limit</span>
+            onClick={() => activado('limitados')}>Actual</span>
             </SwiperSlide>
 
         </Swiper>

@@ -14,6 +14,8 @@ import m_roja from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_
 import m_verde from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Verde.png'
 import m_gris from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Naranja.png'
 import m_azul from '../../Assets/Camisetas_Color/Camisetas_Chica/Camiseta_Mujer_Gris.png'
+import m_gris_real from '../../Assets/Camisetas_Color/Camisetas_Chica/Definitivox.png'
+
 import camis from '../../Assets/Camisetas_Color/Camisetas_Chica/Definitivos_3.png'
 
 import s_blanco from '../../Assets/Camisetas_Color/Sudaderas/Sudadera_Blanca.png'
@@ -62,6 +64,7 @@ const Tarjetas = (props) => {
         verde: m_verde,
         azul: m_azul,
         naranja: m_gris,
+        bicolor: m_gris_real,
       };
 
       const imagenes_3  ={

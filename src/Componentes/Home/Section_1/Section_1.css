@@ -339,10 +339,15 @@
 
     .contenedor_home{
       min-height: 0;
+      padding-top: 0rem;
     }
 
     .home_introduccion p{
         font-size: 1.1rem;
+    }
+
+    .home_introduccion h1{
+      margin-bottom: 0.5rem;
     }
 
   }

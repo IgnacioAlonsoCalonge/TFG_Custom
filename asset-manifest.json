@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TFG_Custom/static/css/main.7c183cd1.css",
+    "main.css": "/TFG_Custom/static/css/main.6b8b2f7e.css",
     "main.js": "/TFG_Custom/static/js/main.283f6858.js",
     "static/js/787.ce74a52f.chunk.js": "/TFG_Custom/static/js/787.ce74a52f.chunk.js",
     "static/media/Gato_recortado.png": "/TFG_Custom/static/media/Gato_recortado.01b2e5e3f5fc9cdca342.png",
@@ -118,12 +118,12 @@
     "static/media/BebasNeue-Regular.woff2": "/TFG_Custom/static/media/BebasNeue-Regular.8eefcd4284319e1eb4ca.woff2",
     "static/media/Black_2.png": "/TFG_Custom/static/media/Black_2.020903c1facca8fddb21.png",
     "index.html": "/TFG_Custom/index.html",
-    "main.7c183cd1.css.map": "/TFG_Custom/static/css/main.7c183cd1.css.map",
+    "main.6b8b2f7e.css.map": "/TFG_Custom/static/css/main.6b8b2f7e.css.map",
     "main.283f6858.js.map": "/TFG_Custom/static/js/main.283f6858.js.map",
     "787.ce74a52f.chunk.js.map": "/TFG_Custom/static/js/787.ce74a52f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c183cd1.css",
+    "static/css/main.6b8b2f7e.css",
     "static/js/main.283f6858.js"
   ]
 }

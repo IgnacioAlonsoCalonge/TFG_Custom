@@ -309,6 +309,21 @@
 
 }
 
+@media screen and (max-width: 1700px) and (max-height: 750px) {
+    .foto_cami{
+        height: 550px;
+    }
+
+    .estados{
+        justify-content: normal;
+    }
+
+    .pruebas_s{
+        width: 85%;
+    }
+  
+  }
+
 
   @media screen and (max-width: 1050px){
 

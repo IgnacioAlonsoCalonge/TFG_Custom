@@ -35,7 +35,7 @@ const Categorias_2 = () => {
                 grabCursor={true}
                 modules={[FreeMode]}
                 className="swiper"
-                slidesPerView={3.2}
+                slidesPerView={3.4}
                 breakpoints={{
                     0: {
                         slidesPerView: 1,
@@ -64,7 +64,7 @@ const Categorias_2 = () => {
                     },
 
                     1500: {
-                        slidesPerView: 3.2,
+                        slidesPerView: 3.4,
                         spaceBetween: 30,
                     }
                 }}>

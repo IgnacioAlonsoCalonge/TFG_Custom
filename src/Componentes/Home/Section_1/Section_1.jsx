@@ -10,7 +10,7 @@ const Section_1 = (props) => {
     <div className='contenedor_home'>
         <div
         className='home_introduccion'>
-          <h1>Des-Ink</h1>
+          <h1>DesInK</h1>
           <div className='home_introduccion_2'>
             <h2>Crea tu propio</h2>
               <section className='animacion'>

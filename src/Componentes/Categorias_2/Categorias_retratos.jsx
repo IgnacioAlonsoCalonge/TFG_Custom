@@ -32,7 +32,7 @@ const Categorias_retratos = () => {
                 grabCursor={true}
                 modules={[FreeMode]}
                 className="swiper"
-                slidesPerView={3.1}
+                slidesPerView={3.4}
                 breakpoints={{
                     0: {
                         slidesPerView: 1.05,

@@ -8,13 +8,10 @@ import foto8 from './Assets/Estampados/Astronauta_1.png'
 import foto9 from './Assets/Estampados/Astro_edit.png'
 import foto10 from './Assets/Estampados/Black_2.png'
 import foto11 from './Assets/Estampados/sds.png'
-import fotosam from './Assets/Estampados/Samurai-color.png'
 import foto15 from './Assets/Estampados/Gato_recortado.png'
 import foto16 from './Assets/Estampados/Elefante_BN.png'
-import foto17 from './Assets/Estampados/Dragon_1.png'
 import foto18 from './Assets/Estampados/Samurai_lol.png'
 import foto20 from './Assets/Estampados/Peon.png'
-import foto21 from './Assets/Estampados/Peon_2.png'
 import foto22 from './Assets/Estampados/Leoncito.png'
 import foto23 from './Assets/Estampados/Leoncito_2.png'
 import foto24 from './Assets/Estampados/Elefn.png'
@@ -25,7 +22,6 @@ import foto19 from './Assets/Estampados/Elephant_Multicolor.png'
 import foto30 from './Assets/Estampados/Philosophys.png'
 import foto31 from './Assets/Estampados/Prob.png'
 import foto32 from './Assets/Estampados/Astronauta_3.png'
-import foto33 from './Assets/Estampados/Astronauta_4.png'
 import foto34 from './Assets/Estampados/Cute_Cat.png'
 import foto35 from './Assets/Estampados/Pandito_2.png'
 import foto36 from './Assets/Estampados/Pandito_3.png'
@@ -39,6 +35,7 @@ import foto52 from './Assets/Estampados/Cat_2.png'
 import foto53 from './Assets/Estampados/Pez.png'
 import foto54 from './Assets/Estampados/Blue_Whale.png'
 import foto55 from './Assets/Estampados/Black_fish.png'
+import foto56 from './Assets/Estampados/Astro.png'
 
 
 export const estampados = [
@@ -60,7 +57,7 @@ export const estampados = [
         categoria:"animales",
         subcategoria:"Acuatico",
         price: 12,
-        inicial: 'negro',
+        inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -116,7 +113,6 @@ export const estampados = [
         categoria:"animales",
         subcategoria:"Osos",
         inicial: 'negro',
-        relacionados:[foto4,foto25],
         descripcion: "Lorem ipsum onubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -138,7 +134,6 @@ export const estampados = [
         categoria:"animales",
         subcategoria:"Gatos",
         inicial: 'negro',
-        relacionados:[fotosam],
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu sempem posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
 
     },
@@ -179,7 +174,6 @@ export const estampados = [
         subcategoria:"Gatos",
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu sem",
         inicial: 'azul',
-        relacionados:[foto17],
         foto: foto15
     },
 
@@ -216,7 +210,6 @@ export const estampados = [
     {
         id:"19",
         titulo:"Pawn Chess",
-        relacionados:[foto21],
         foto: foto20,
         price: 12,
         inicial: 'blanco',
@@ -226,7 +219,6 @@ export const estampados = [
     {
         id:"20",
         titulo:"Aviator dog glasses",
-        relacionados:[foto27],
         foto: foto26,
         categoria:"animales",
         subcategoria:"Perros",
@@ -261,7 +253,6 @@ export const estampados = [
         foto: foto32,
         price: 12,
         inicial: 'blanco',
-        relacionados: [foto33],
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
@@ -315,7 +306,6 @@ export const estampados = [
         foto: foto23,
         categoria:"animales",
         subcategoria:"Leones",
-        relacionados: [foto22,foto25],
         price: 16,
         inicial: 'azul',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
@@ -369,7 +359,6 @@ export const estampados = [
     {
         id:"33",
         titulo:"Aviator dog glasses",
-        relacionados:[foto26],
         foto: foto27,
         categoria:"animales",
         subcategoria:"Perros",
@@ -442,6 +431,15 @@ export const estampados = [
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
 
-
+    {
+        id: "180",
+        titulo:"Explore",
+        categoria:"retratos",
+        subcategoria:"Espacio",
+        foto: foto56,
+        price: 14,
+        inicial: 'blanco',
+        descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
+    },
 
 ]

@@ -1,8 +1,9 @@
 
-import foto16 from './Assets/Estampados/Pandito.png'
 import foto from './Retratos/Retrato_11.png'
 import foto2 from './Assets/Estampados/Ninja_cat.png'
-import foto3 from './Retratos/Retrato_4.png'
+import foto6 from './Assets/Estampados/Pez.png'
+import foto4 from './Assets/Estampados/Astro.png'
+import foto5 from './Assets/Estampados/Black_fish.png'
 
 
 
@@ -20,11 +21,11 @@ export const destacados = [
     },
 
     {
-        id: "26",
-        titulo:"Brown Bear",
-        categoria:"animales",
-        subcategoria:"Bear",
-        foto: foto16,
+        id: "180",
+        titulo:"Explore",
+        categoria:"retratos",
+        subcategoria:"Espacio",
+        foto: foto4,
         price: 14,
         inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
@@ -42,14 +43,26 @@ export const destacados = [
     },
 
     {
-        id: "153",
-        titulo:"Vini Vidi Vicci",
-        foto: foto3,
-        categoria:"retratos",
-        subcategoria:"retratos",
+        id:"53",
+        titulo:"Carpa Koi",
+        foto: foto6,
+        categoria:"animales",
+        subcategoria:"Acuatico",
         price: 12,
         inicial: 'blanco',
         descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
     },
+
+    {
+        id:"61",
+        titulo:"Black Fish",
+        foto: foto5,
+        categoria:"animales",
+        subcategoria:"Acuatico",
+        price: 12,
+        inicial: 'negro',
+        descripcion: "Lorem ipsum dolor sit amet consectetur adipiscing elit hac scelerisque cum, eros arcu semper fusce conubia proin laoreet at sodales, vivamus blandit massa ultrices vestibulum posuere purus feugiat bibendum. Cras urna semper posuere volutpat luctus conubia pretium co"
+    },
+
 
 ]
